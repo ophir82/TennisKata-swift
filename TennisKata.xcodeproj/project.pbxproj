@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		63A91C7D1B2F66CE00F7F221 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A91C7C1B2F66CE00F7F221 /* AppDelegate.swift */; };
 		63A91C821B2F66CE00F7F221 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A91C801B2F66CE00F7F221 /* Main.storyboard */; };
-		63A91C841B2F66CE00F7F221 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A91C831B2F66CE00F7F221 /* Assets.xcassets */; };
 		63A91C871B2F66CE00F7F221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63A91C851B2F66CE00F7F221 /* LaunchScreen.storyboard */; };
 		63A91C921B2F66CE00F7F221 /* TennisKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A91C911B2F66CE00F7F221 /* TennisKataTests.swift */; };
 		63AAEAC81B3F48E200253ABF /* TennisGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63AAEAC71B3F48E200253ABF /* TennisGame.swift */; };
@@ -29,7 +28,6 @@
 		63A91C791B2F66CE00F7F221 /* TennisKata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TennisKata.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63A91C7C1B2F66CE00F7F221 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		63A91C811B2F66CE00F7F221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		63A91C831B2F66CE00F7F221 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		63A91C861B2F66CE00F7F221 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		63A91C881B2F66CE00F7F221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		63A91C8D1B2F66CE00F7F221 /* TennisKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TennisKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -80,7 +78,6 @@
 				63AAEAC71B3F48E200253ABF /* TennisGame.swift */,
 				63A91C7C1B2F66CE00F7F221 /* AppDelegate.swift */,
 				63A91C801B2F66CE00F7F221 /* Main.storyboard */,
-				63A91C831B2F66CE00F7F221 /* Assets.xcassets */,
 				63A91C851B2F66CE00F7F221 /* LaunchScreen.storyboard */,
 				63A91C881B2F66CE00F7F221 /* Info.plist */,
 			);
@@ -178,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				63A91C871B2F66CE00F7F221 /* LaunchScreen.storyboard in Resources */,
-				63A91C841B2F66CE00F7F221 /* Assets.xcassets in Resources */,
 				63A91C821B2F66CE00F7F221 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

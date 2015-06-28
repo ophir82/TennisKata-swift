@@ -74,7 +74,7 @@ class TennisGameTestCase: XCTestCase {
     }
 }
 
-class OnGameStart : TennisGameTestCase {
+class TennisGame_OnStart : TennisGameTestCase {
     func testInitialScore_BothPlayersHaveZero() {
         assertScore(player1: 0, player2:0)
     }
@@ -100,7 +100,7 @@ class OnGameStart : TennisGameTestCase {
     }
 }
 
-class AfterDeuce : TennisGameTestCase {
+class TennisGame_AfterDeuce : TennisGameTestCase {
     override func setUp() {
         super.setUp()
         scoreDeuce()
