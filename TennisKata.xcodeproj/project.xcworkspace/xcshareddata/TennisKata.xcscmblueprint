@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "95E3BA6F0A6501E3165E8F2EBF27650A31B9EECF" : 0,
+    "E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "FCC11088-7A68-481C-94AE-BDA2AF16358A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "95E3BA6F0A6501E3165E8F2EBF27650A31B9EECF" : "TennisKata",
+    "E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32" : "TennisKata-swift\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TennisKata",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 203,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TennisKata.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "git.snapp.fr:Katas\/Tennis-Swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "95E3BA6F0A6501E3165E8F2EBF27650A31B9EECF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:ophir82\/TennisKata-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32"
+    }
+  ]
+}
