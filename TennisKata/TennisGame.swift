@@ -20,21 +20,21 @@ class TennisGame {
         case Advantage(player:Player)
         case Win(player:Player)
         
-        func increment(player:Player) -> Score {
+        func increment(scorer:Player) -> Score {
             switch self {
-            case let .Advantage(p) where p == player:
-                return .Win(player:player)
+            case let .Advantage(player) where scorer == player:
+                return .Win(player: scorer)
             
-            case let .Advantage(p) where p != player:
+            case let .Advantage(player) where scorer != player:
                 return .Points(player1:40, player2:40)
             
             case .Points(40, 40):
-                return .Advantage(player: player)
+                return .Advantage(player: scorer)
 
-            case let .Points(v1, v2) where player == .Player1:
+            case let .Points(v1, v2) where .Player1 == scorer:
                 return .Points(player1: nextPoints(v1), player2: v2)
                 
-            case let .Points(v1, v2) where player == .Player2:
+            case let .Points(v1, v2) where .Player2 == scorer:
                 return .Points(player1: v1, player2: nextPoints(v2))
             
             default:
