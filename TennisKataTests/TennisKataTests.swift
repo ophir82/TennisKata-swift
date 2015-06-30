@@ -21,18 +21,20 @@ class TennisGameTestCase: XCTestCase {
     let name1 = "player1"
     let name2 = "player2"
     
-    var game:TennisGame!;
+    var game:TennisGame!
+    var history:[Player]!
     
     override func setUp() {
         game = TennisGame()
+        history = [Player]()
     }
 
     func player1Scores() {
-        self.game.playerScores(.Player1)
+        history.append(.Player1)
     }
 
     func player2Scores() {
-        self.game.playerScores(.Player2)
+        history.append(.Player2)
     }
 
     func bothPlayerScores() {
@@ -50,7 +52,7 @@ class TennisGameTestCase: XCTestCase {
     }
     
     func scoreString() -> String {
-        return game.scoreString(name1: name1, name2: name2)
+        return game.scoreString(name1: name1, name2: name2, history:history)
     }
     
     func assertScore(player1 score1:Int, player2 score2:Int) {

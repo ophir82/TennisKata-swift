@@ -7,16 +7,20 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>FCC11088-7A68-481C-94AE-BDA2AF16358A</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>TennisKata</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+		<key>95E3BA6F0A6501E3165E8F2EBF27650A31B9EECF</key>
+		<string>git.snapp.fr:Katas/Tennis-Swift.git</string>
 		<key>E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32</key>
 		<string>github.com:ophir82/TennisKata-swift.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>TennisKata.xcodeproj/project.xcworkspace</string>
+	<string>TennisKata.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+		<key>95E3BA6F0A6501E3165E8F2EBF27650A31B9EECF</key>
+		<string>../../../TennisKata</string>
 		<key>E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32</key>
 		<string>../..</string>
 	</dict>
@@ -28,6 +32,14 @@
 	<string>E299C8F2F23F3D379E53A59A4AF6B5B98EDC5B32</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>95E3BA6F0A6501E3165E8F2EBF27650A31B9EECF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>TennisKata</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

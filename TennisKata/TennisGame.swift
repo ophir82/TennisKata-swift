@@ -47,18 +47,16 @@ class TennisGame {
         }
     }
 
-    var score:Score = .Points(player1:0, player2:0)
-
-    func playerScores(player:Player) {
-        score = score.increment(player)
+    func score(history:[Player]) -> Score {
+        return history.reduce(.Points(player1:0, player2:0), combine: { $0.increment($1) } )
     }
 }
 
 extension TennisGame {
-    func scoreString(name1 name1:String, name2:String) -> String {
-        var nameOf = [Player.Player1: name1, Player.Player2: name2]
+    func scoreString(name1 name1:String, name2:String, history:[Player]) -> String {
+        let nameOf = { $0 == Player.Player1 ? name1 : name2 }
         
-        switch score {
+        switch score(history) {
         case .Points(40, 40):
             return "Deuce"
             
@@ -69,11 +67,10 @@ extension TennisGame {
             return "\(name1): \(v1) - \(name2): \(v2)"
             
         case let .Advantage(player):
-            return "Adv \(nameOf[player]!)"
+            return "Adv \(nameOf(player))"
             
         case let .Win(player):
-            return "\(nameOf[player]!) wins"
-            
+            return "\(nameOf(player)) wins"            
         }
     }
 }
